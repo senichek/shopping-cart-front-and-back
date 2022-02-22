@@ -1,0 +1,19 @@
+version: '3'
+services:
+  back:
+    build: backend
+    ports:
+      - "3001:3001"
+    networks:
+      - shopping-cart-net
+  front:
+    build: frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - shopping-cart-net
+    depends_on:
+      - back
+
+networks:
+  shopping-cart-net:
