@@ -33,7 +33,7 @@ function Greeting() {
          <button type="submit">Swagger doc</button>
       </form>
       <br></br>
-      <form action="https://github.com/senichek/shopping-cart-react.git">
+      <form action="https://github.com/senichek/shopping-cart-front-and-back">
          <button type="submit">GitHub link</button>
       </form>
       <br></br>
